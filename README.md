@@ -19,3 +19,4 @@ a simple cli application to play around with 1-D cellular automata.
 `-s | --speed` - set the speed of the simulation\
 `-w | --width` - set the width. If unspecified, takes the width of the terminal window\
 `-wr | --wrap-around` specifies whether cellular automata should wrap around the edges.
+
