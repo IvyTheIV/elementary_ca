@@ -41,6 +41,7 @@ fn main() {
 
     loop {
         if let Ok(()) = rx.try_recv() {
+            print!("{}", cursor::Show);
             return;
         }
         field.print_states();
